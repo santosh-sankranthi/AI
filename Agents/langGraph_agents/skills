@@ -1,0 +1,21 @@
+1. what are skills and why do agents need them?
+
+Agent Skills are reusable capabilities/instructions that teach an AI agent how to perform a specific type of task.
+Think of them as “plug-in expertise” for an agent.
+For example:
+- 🐳 Docker Skill → knows how to build, debug, and optimize Docker setups
+- ☸️ Kubernetes Skill → knows how to deploy, troubleshoot, and manage Kubernetes resources
+- 🧪 Testing Skill → knows how to write and run tests
+- 📊 Data Analysis Skill → knows how to analyze datasets and generate insights
+The key idea:
+An agent = reasoning + tools + skills
+
+Tools give the agent the ability to do something.
+Skills give it the knowledge/instructions for doing it correctly.
+So instead of putting every instruction into the agent's massive system prompt, you can give it specialized, reusable skills that it loads when needed.
+
+3. how to make and add skills to agent using langgraph ??
+
+https://docs.langchain.com/oss/python/deepagents/skills
+
+
